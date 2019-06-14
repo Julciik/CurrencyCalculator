@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Currency Calculator</title>
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="calc">
+			<h1>Currency calculator</h1>
+			<p><label for="value">Value to convert:</label><input id="value" type="number" value="0"></p>
+			<p><label for="fromValue">From:</label><select id="fromValue">
+				<option>PLN</option>
+				<option>USD</option>
+				<option>EUR</option>
+			</select></p>
+			<p><label for="toValue">To:</label><select id="toValue">
+				<option>PLN</option>
+				<option>USD</option>
+				<option>EUR</option>
+			</select></p>
+			<button id="convert">Calculate!</button>
+			<p class="result"></p>
+			</div>
+	</div>
+	
+	<script src="script.js"></script>
+
+</body>
+
+</html>
